@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Sacramento:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(https://images.unsplash.com/photo-1654648663068-0093ade5069e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2F0ZXJtZWxvbiUyMGN1dGUlMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+p {
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: "Sacramento", cursive;
+}
+
+#title {
+  width: 500px;
+  margin: 100px auto;
+  padding: 10px;
+  z-index: 1;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+#value {
+  color: black;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: 2px solid #333;
+  border-radius: 5px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 1%;
+}
+
+button:active {
+  transform: scale(0.98);
+}
