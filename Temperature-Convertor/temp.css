@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: italic;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-image: url("https://images.unsplash.com/photo-1609725236589-d987ffc8133a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+}
+
+body.volcano {
+  background-image: url("https://images.unsplash.com/photo-1619450535979-6939a4690888?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+body.red-hot {
+  background: url("https://images.unsplash.com/photo-1662457756659-ddd343462d05?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+body.autumn {
+  background: url("https://images.unsplash.com/photo-1634199826678-c99bce5b5678?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXV0dW1uJTIwc2NlbmVyeXxlbnwwfHwwfHx8MA%3D%3D");
+}
+body.winter {
+  background: url("https://images.unsplash.com/photo-1657374775634-deac49458b45?q=80&w=906&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+}
+body.cool {
+  background: url("https://images.unsplash.com/photo-1670755788772-dacd69bb324d?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+}
+
+#container {
+  width: 500px;
+  height: 500px;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0);
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: transparent;
+  -webkit-text-stroke: 0.1vw #770753;
+  background: linear-gradient(
+    180deg,
+    rgba(247, 1, 120, 1) 0%,
+    rgba(160, 8, 156, 1) 51%,
+    rgba(99, 13, 178, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-clip: text;
+  background-position: 0 0;
+  letter-spacing: 2px;
+}
+label {
+  font-weight: bold;
+}
+#From {
+  font-weight: bold;
+}
+#conversionFrom {
+  padding: 5px;
+}
+#To {
+  font-weight: bold;
+}
+#conversionTo {
+  padding: 5px;
+}
+#tempInput {
+  padding: 5px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#convertBtn {
+  padding: 10px 20px;
+  background-color: #770753;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.98);
+}
